@@ -1,0 +1,1945 @@
+{
+  "neujahrstag": {
+    "labels": {
+      "de": "Neujahrstag",
+      "fr": "Nouvel an",
+      "en": "New Year's Day",
+      "it": "Capodanno"
+    },
+    "date": "1.1",
+    "regions": {
+      "zh": {
+        "standard": true,
+        "whole_day": true
+      },
+      "be": {
+        "standard": true,
+        "whole_day": true
+      },
+      "lu": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ur": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sz": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ow": {
+        "standard": true,
+        "whole_day": true
+      },
+      "nw": {
+        "standard": true,
+        "whole_day": true
+      },
+      "gl": {
+        "standard": true,
+        "whole_day": true
+      },
+      "zg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "fr": {
+        "standard": true,
+        "whole_day": true
+      },
+      "so": {
+        "standard": true,
+        "whole_day": true
+      },
+      "bs": {
+        "standard": true,
+        "whole_day": true
+      },
+      "bl": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sh": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ar": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ai": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "gr": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ag": {
+        "standard": true,
+        "whole_day": true
+      },
+      "tg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ti": {
+        "standard": true,
+        "whole_day": true
+      },
+      "vd": {
+        "standard": true,
+        "whole_day": true
+      },
+      "vs": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ne": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ge": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ju": {
+        "standard": true,
+        "whole_day": true
+      }
+    }
+  },
+  "berchtoldstag": {
+    "labels": {
+      "de": "Berchtoldstag",
+      "fr": "Saint Berchtold",
+      "en": "Saint Berchtold",
+      "it": "San Basilio"
+    },
+    "date": "2.1",
+    "regions": {
+      "zh": {
+        "standard": false,
+        "whole_day": true
+      },
+      "be": {
+        "standard": true,
+        "whole_day": true
+      },
+      "lu": {
+        "standard": false,
+        "whole_day": true
+      },
+      "ow": {
+        "standard": false,
+        "whole_day": true
+      },
+      "gl": {
+        "standard": false,
+        "whole_day": true
+      },
+      "zg": {
+        "standard": false,
+        "whole_day": true
+      },
+      "fr": {
+        "standard": false,
+        "whole_day": true
+      },
+      "so": {
+        "standard": false,
+        "whole_day": true
+      },
+      "sh": {
+        "standard": false,
+        "whole_day": true
+      },
+      "gr": {
+        "standard": false,
+        "whole_day": true
+      },
+      "ag": {
+        "standard": false,
+        "whole_day": true
+      },
+      "tg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "vd": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ne": {
+        "standard": false,
+        "whole_day": true
+      },
+      "ge": {
+        "standard": false,
+        "whole_day": true
+      },
+      "ju": {
+        "standard": true,
+        "whole_day": true
+      }
+    }
+  },
+  "heilige_drei_koenige": {
+    "labels": {
+      "de": "Heilige Drei Könige",
+      "fr": "Epiphanie",
+      "en": "Epiphany",
+      "it": "Epifania"
+    },
+    "date": "6.1",
+    "regions": {
+      "ur": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sz": {
+        "standard": true,
+        "whole_day": true
+      },
+      "gr": {
+        "standard": false,
+        "whole_day": true
+      },
+      "ti": {
+        "standard": true,
+        "whole_day": true
+      }
+    }
+  },
+  "st_josef": {
+    "labels": {
+      "de": "St. Josef",
+      "fr": "Saint Joseph",
+      "en": "Saint Joseph",
+      "it": "San Giuseppe"
+    },
+    "date": "19.3",
+    "regions": {
+      "lu": {
+        "standard": false,
+        "whole_day": true
+      },
+      "ur": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sz": {
+        "standard": true,
+        "whole_day": true
+      },
+      "nw": {
+        "standard": true,
+        "whole_day": true
+      },
+      "zg": {
+        "standard": false,
+        "whole_day": true
+      },
+      "gr": {
+        "standard": false,
+        "whole_day": true
+      },
+      "ti": {
+        "standard": true,
+        "whole_day": true
+      },
+      "vs": {
+        "standard": true,
+        "whole_day": true
+      }
+    }
+  },
+  "karfreitag": {
+    "labels": {
+      "de": "Karfreitag",
+      "fr": "Vendredi Saint",
+      "en": "Good Friday",
+      "it": "Venerdì santo"
+    },
+    "date": "*",
+    "regions": {
+      "zh": {
+        "standard": true,
+        "whole_day": true
+      },
+      "be": {
+        "standard": true,
+        "whole_day": true
+      },
+      "lu": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ur": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sz": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ow": {
+        "standard": true,
+        "whole_day": true
+      },
+      "nw": {
+        "standard": true,
+        "whole_day": true
+      },
+      "gl": {
+        "standard": true,
+        "whole_day": true
+      },
+      "zg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "fr": {
+        "standard": true,
+        "whole_day": true
+      },
+      "so": {
+        "standard": true,
+        "whole_day": true
+      },
+      "bs": {
+        "standard": true,
+        "whole_day": true
+      },
+      "bl": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sh": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ar": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ai": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "gr": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ag": {
+        "standard": true,
+        "whole_day": true
+      },
+      "tg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "vd": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ne": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ge": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ju": {
+        "standard": true,
+        "whole_day": true
+      }
+    }
+  },
+  "ostern": {
+    "labels": {
+      "de": "Ostern",
+      "fr": "Pâques",
+      "en": "Easter",
+      "it": "Pasqua"
+    },
+    "date": "*",
+    "regions": {
+      "zh": {
+        "standard": true,
+        "whole_day": true
+      },
+      "be": {
+        "standard": true,
+        "whole_day": true
+      },
+      "lu": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ur": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sz": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ow": {
+        "standard": true,
+        "whole_day": true
+      },
+      "nw": {
+        "standard": true,
+        "whole_day": true
+      },
+      "gl": {
+        "standard": true,
+        "whole_day": true
+      },
+      "zg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "fr": {
+        "standard": true,
+        "whole_day": true
+      },
+      "so": {
+        "standard": true,
+        "whole_day": true
+      },
+      "bs": {
+        "standard": true,
+        "whole_day": true
+      },
+      "bl": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sh": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ar": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ai": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "gr": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ag": {
+        "standard": true,
+        "whole_day": true
+      },
+      "tg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ti": {
+        "standard": true,
+        "whole_day": true
+      },
+      "vd": {
+        "standard": true,
+        "whole_day": true
+      },
+      "vs": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ne": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ge": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ju": {
+        "standard": true,
+        "whole_day": true
+      }
+    }
+  },
+  "ostermontag": {
+    "labels": {
+      "de": "Ostermontag",
+      "fr": "Lundi de Pâques",
+      "en": "Easter Monday",
+      "it": "Lunedì di Pasqua"
+    },
+    "date": "*",
+    "regions": {
+      "zh": {
+        "standard": true,
+        "whole_day": true
+      },
+      "be": {
+        "standard": true,
+        "whole_day": true
+      },
+      "lu": {
+        "standard": false,
+        "whole_day": true
+      },
+      "ur": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sz": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ow": {
+        "standard": false,
+        "whole_day": true
+      },
+      "nw": {
+        "standard": false,
+        "whole_day": true
+      },
+      "gl": {
+        "standard": true,
+        "whole_day": true
+      },
+      "zg": {
+        "standard": false,
+        "whole_day": true
+      },
+      "fr": {
+        "standard": false,
+        "whole_day": true
+      },
+      "so": {
+        "standard": false,
+        "whole_day": true
+      },
+      "bs": {
+        "standard": true,
+        "whole_day": true
+      },
+      "bl": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sh": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ar": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ai": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "gr": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ag": {
+        "standard": false,
+        "whole_day": true
+      },
+      "tg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ti": {
+        "standard": true,
+        "whole_day": true
+      },
+      "vd": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ne": {
+        "standard": false,
+        "whole_day": true
+      },
+      "ge": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ju": {
+        "standard": true,
+        "whole_day": true
+      }
+    }
+  },
+  "tag_der_arbeit": {
+    "labels": {
+      "de": "Tag der Arbeit",
+      "fr": "Fête du travail",
+      "en": "Labour Day",
+      "it": "Festa del lavoro"
+    },
+    "date": "1.5",
+    "regions": {
+      "zh": {
+        "standard": true,
+        "whole_day": true
+      },
+      "fr": {
+        "standard": false,
+        "whole_day": false
+      },
+      "so": {
+        "standard": true,
+        "whole_day": false
+      },
+      "bs": {
+        "standard": true,
+        "whole_day": true
+      },
+      "bl": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sh": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ag": {
+        "standard": false,
+        "whole_day": true
+      },
+      "tg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ti": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ne": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ju": {
+        "standard": true,
+        "whole_day": true
+      }
+    }
+  },
+  "auffahrt": {
+    "labels": {
+      "de": "Auffahrt",
+      "fr": "Ascension",
+      "en": "Ascension Day",
+      "it": "Ascensione"
+    },
+    "date": "*",
+    "regions": {
+      "zh": {
+        "standard": true,
+        "whole_day": true
+      },
+      "be": {
+        "standard": true,
+        "whole_day": true
+      },
+      "lu": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ur": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sz": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ow": {
+        "standard": true,
+        "whole_day": true
+      },
+      "nw": {
+        "standard": true,
+        "whole_day": true
+      },
+      "gl": {
+        "standard": true,
+        "whole_day": true
+      },
+      "zg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "fr": {
+        "standard": true,
+        "whole_day": true
+      },
+      "so": {
+        "standard": true,
+        "whole_day": true
+      },
+      "bs": {
+        "standard": true,
+        "whole_day": true
+      },
+      "bl": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sh": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ar": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ai": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "gr": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ag": {
+        "standard": true,
+        "whole_day": true
+      },
+      "tg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ti": {
+        "standard": true,
+        "whole_day": true
+      },
+      "vd": {
+        "standard": true,
+        "whole_day": true
+      },
+      "vs": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ne": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ge": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ju": {
+        "standard": true,
+        "whole_day": true
+      }
+    }
+  },
+  "pfingsten": {
+    "labels": {
+      "de": "Pfingsten",
+      "fr": "Pentecôte",
+      "en": "Whitsun",
+      "it": "Pentecoste"
+    },
+    "date": "*",
+    "regions": {
+      "zh": {
+        "standard": true,
+        "whole_day": true
+      },
+      "be": {
+        "standard": true,
+        "whole_day": true
+      },
+      "lu": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ur": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sz": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ow": {
+        "standard": true,
+        "whole_day": true
+      },
+      "nw": {
+        "standard": true,
+        "whole_day": true
+      },
+      "gl": {
+        "standard": true,
+        "whole_day": true
+      },
+      "zg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "fr": {
+        "standard": true,
+        "whole_day": true
+      },
+      "so": {
+        "standard": true,
+        "whole_day": true
+      },
+      "bs": {
+        "standard": true,
+        "whole_day": true
+      },
+      "bl": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sh": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ar": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ai": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "gr": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ag": {
+        "standard": true,
+        "whole_day": true
+      },
+      "tg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ti": {
+        "standard": true,
+        "whole_day": true
+      },
+      "vd": {
+        "standard": true,
+        "whole_day": true
+      },
+      "vs": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ne": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ge": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ju": {
+        "standard": true,
+        "whole_day": true
+      }
+    }
+  },
+  "pfingstmontag": {
+    "labels": {
+      "de": "Pfingstmontag",
+      "fr": "Lundi de Pentecôte",
+      "en": "Whit Monday",
+      "it": "Lunedì di Pentecoste"
+    },
+    "date": "*",
+    "regions": {
+      "zh": {
+        "standard": true,
+        "whole_day": true
+      },
+      "be": {
+        "standard": true,
+        "whole_day": true
+      },
+      "lu": {
+        "standard": false,
+        "whole_day": true
+      },
+      "ur": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sz": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ow": {
+        "standard": false,
+        "whole_day": true
+      },
+      "nw": {
+        "standard": false,
+        "whole_day": true
+      },
+      "gl": {
+        "standard": true,
+        "whole_day": true
+      },
+      "zg": {
+        "standard": false,
+        "whole_day": true
+      },
+      "fr": {
+        "standard": false,
+        "whole_day": true
+      },
+      "so": {
+        "standard": false,
+        "whole_day": true
+      },
+      "bs": {
+        "standard": true,
+        "whole_day": true
+      },
+      "bl": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sh": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ar": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ai": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "gr": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ag": {
+        "standard": false,
+        "whole_day": true
+      },
+      "tg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ti": {
+        "standard": true,
+        "whole_day": true
+      },
+      "vd": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ne": {
+        "standard": false,
+        "whole_day": true
+      },
+      "ge": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ju": {
+        "standard": true,
+        "whole_day": true
+      }
+    }
+  },
+  "fronleichnam": {
+    "labels": {
+      "de": "Fronleichnam",
+      "fr": "Fête-Dieu",
+      "en": "Corpus Christi",
+      "it": "Corpus Domini"
+    },
+    "date": "*",
+    "regions": {
+      "lu": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ur": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sz": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ow": {
+        "standard": true,
+        "whole_day": true
+      },
+      "nw": {
+        "standard": true,
+        "whole_day": true
+      },
+      "zg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "fr": {
+        "standard": false,
+        "whole_day": true
+      },
+      "so": {
+        "standard": false,
+        "whole_day": true
+      },
+      "bl": {
+        "standard": false,
+        "whole_day": true
+      },
+      "ai": {
+        "standard": true,
+        "whole_day": true
+      },
+      "gr": {
+        "standard": false,
+        "whole_day": true
+      },
+      "ag": {
+        "standard": false,
+        "whole_day": true
+      },
+      "ti": {
+        "standard": true,
+        "whole_day": true
+      },
+      "vs": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ne": {
+        "standard": false,
+        "whole_day": true
+      },
+      "ju": {
+        "standard": true,
+        "whole_day": true
+      }
+    }
+  },
+  "schweizer_bundesfeier": {
+    "labels": {
+      "de": "Schweizer Bundesfeier",
+      "fr": "Fête nationale Suisse",
+      "en": "Swiss National Holiday",
+      "it": "Festa nazionale svizzera"
+    },
+    "date": "1.8",
+    "regions": {
+      "zh": {
+        "standard": true,
+        "whole_day": true
+      },
+      "be": {
+        "standard": true,
+        "whole_day": true
+      },
+      "lu": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ur": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sz": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ow": {
+        "standard": true,
+        "whole_day": true
+      },
+      "nw": {
+        "standard": true,
+        "whole_day": true
+      },
+      "gl": {
+        "standard": true,
+        "whole_day": true
+      },
+      "zg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "fr": {
+        "standard": true,
+        "whole_day": true
+      },
+      "so": {
+        "standard": true,
+        "whole_day": true
+      },
+      "bs": {
+        "standard": true,
+        "whole_day": true
+      },
+      "bl": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sh": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ar": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ai": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "gr": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ag": {
+        "standard": true,
+        "whole_day": true
+      },
+      "tg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ti": {
+        "standard": true,
+        "whole_day": true
+      },
+      "vd": {
+        "standard": true,
+        "whole_day": true
+      },
+      "vs": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ne": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ge": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ju": {
+        "standard": true,
+        "whole_day": true
+      }
+    }
+  },
+  "mariae_himmelfahrt": {
+    "labels": {
+      "de": "Mariä Himmelfahrt",
+      "fr": "Assomption",
+      "en": "Assumption Day",
+      "it": "Assunzione"
+    },
+    "date": "15.8",
+    "regions": {
+      "lu": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ur": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sz": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ow": {
+        "standard": true,
+        "whole_day": true
+      },
+      "nw": {
+        "standard": true,
+        "whole_day": true
+      },
+      "zg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "fr": {
+        "standard": false,
+        "whole_day": true
+      },
+      "so": {
+        "standard": false,
+        "whole_day": true
+      },
+      "bl": {
+        "standard": false,
+        "whole_day": true
+      },
+      "ai": {
+        "standard": true,
+        "whole_day": true
+      },
+      "gr": {
+        "standard": false,
+        "whole_day": true
+      },
+      "ag": {
+        "standard": false,
+        "whole_day": true
+      },
+      "ti": {
+        "standard": true,
+        "whole_day": true
+      },
+      "vs": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ju": {
+        "standard": true,
+        "whole_day": true
+      }
+    }
+  },
+  "eidg_bettag": {
+    "labels": {
+      "de": "Eidg. Dank-, Buss- und Bettag",
+      "fr": "Jeûne fédéral",
+      "en": "Federal Prayday",
+      "it": "Digiuno federale"
+    },
+    "date": "*",
+    "regions": {
+      "zh": {
+        "standard": true,
+        "whole_day": true
+      },
+      "be": {
+        "standard": true,
+        "whole_day": true
+      },
+      "lu": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ur": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sz": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ow": {
+        "standard": true,
+        "whole_day": true
+      },
+      "nw": {
+        "standard": true,
+        "whole_day": true
+      },
+      "gl": {
+        "standard": true,
+        "whole_day": true
+      },
+      "zg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "fr": {
+        "standard": true,
+        "whole_day": true
+      },
+      "so": {
+        "standard": true,
+        "whole_day": true
+      },
+      "bs": {
+        "standard": true,
+        "whole_day": true
+      },
+      "bl": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sh": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ar": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ai": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "gr": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ag": {
+        "standard": true,
+        "whole_day": true
+      },
+      "tg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ti": {
+        "standard": true,
+        "whole_day": true
+      },
+      "vd": {
+        "standard": true,
+        "whole_day": true
+      },
+      "vs": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ne": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ju": {
+        "standard": true,
+        "whole_day": true
+      }
+    }
+  },
+  "allerheiligen": {
+    "labels": {
+      "de": "Allerheiligen",
+      "fr": "La Toussaint",
+      "en": "All Saints' Day",
+      "it": "Tutti i santi"
+    },
+    "date": "1.11",
+    "regions": {
+      "lu": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ur": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sz": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ow": {
+        "standard": true,
+        "whole_day": true
+      },
+      "nw": {
+        "standard": true,
+        "whole_day": true
+      },
+      "gl": {
+        "standard": true,
+        "whole_day": true
+      },
+      "zg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "fr": {
+        "standard": false,
+        "whole_day": true
+      },
+      "so": {
+        "standard": false,
+        "whole_day": true
+      },
+      "ai": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "gr": {
+        "standard": false,
+        "whole_day": true
+      },
+      "ag": {
+        "standard": false,
+        "whole_day": true
+      },
+      "ti": {
+        "standard": true,
+        "whole_day": true
+      },
+      "vs": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ju": {
+        "standard": true,
+        "whole_day": true
+      }
+    }
+  },
+  "mariae_empfaengnis": {
+    "labels": {
+      "de": "Mariä Empfängnis",
+      "fr": "Immaculée Conception",
+      "en": "Immaculate Conception",
+      "it": "Immacolata Concezione"
+    },
+    "date": "8.12",
+    "regions": {
+      "lu": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ur": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sz": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ow": {
+        "standard": true,
+        "whole_day": true
+      },
+      "nw": {
+        "standard": true,
+        "whole_day": true
+      },
+      "zg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "fr": {
+        "standard": false,
+        "whole_day": true
+      },
+      "so": {
+        "standard": false,
+        "whole_day": true
+      },
+      "ai": {
+        "standard": true,
+        "whole_day": true
+      },
+      "gr": {
+        "standard": false,
+        "whole_day": true
+      },
+      "ag": {
+        "standard": false,
+        "whole_day": true
+      },
+      "ti": {
+        "standard": true,
+        "whole_day": true
+      },
+      "vs": {
+        "standard": true,
+        "whole_day": true
+      }
+    }
+  },
+  "weihnachten": {
+    "labels": {
+      "de": "Weihnachten",
+      "fr": "Noël",
+      "en": "Christmas",
+      "it": "Natale"
+    },
+    "date": "25.12",
+    "regions": {
+      "zh": {
+        "standard": true,
+        "whole_day": true
+      },
+      "be": {
+        "standard": true,
+        "whole_day": true
+      },
+      "lu": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ur": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sz": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ow": {
+        "standard": true,
+        "whole_day": true
+      },
+      "nw": {
+        "standard": true,
+        "whole_day": true
+      },
+      "gl": {
+        "standard": true,
+        "whole_day": true
+      },
+      "zg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "fr": {
+        "standard": true,
+        "whole_day": true
+      },
+      "so": {
+        "standard": true,
+        "whole_day": true
+      },
+      "bs": {
+        "standard": true,
+        "whole_day": true
+      },
+      "bl": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sh": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ar": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ai": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "gr": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ag": {
+        "standard": true,
+        "whole_day": true
+      },
+      "tg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ti": {
+        "standard": true,
+        "whole_day": true
+      },
+      "vd": {
+        "standard": true,
+        "whole_day": true
+      },
+      "vs": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ne": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ge": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ju": {
+        "standard": true,
+        "whole_day": true
+      }
+    }
+  },
+  "stephanstag": {
+    "labels": {
+      "de": "Stephanstag",
+      "fr": "Saint Etienne",
+      "en": "St. Stephen's Day",
+      "it": "Santo Stefano"
+    },
+    "date": "26.12",
+    "regions": {
+      "zh": {
+        "standard": true,
+        "whole_day": true
+      },
+      "be": {
+        "standard": true,
+        "whole_day": true
+      },
+      "lu": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ur": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sz": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ow": {
+        "standard": false,
+        "whole_day": true
+      },
+      "nw": {
+        "standard": false,
+        "whole_day": true
+      },
+      "gl": {
+        "standard": true,
+        "whole_day": true
+      },
+      "zg": {
+        "standard": false,
+        "whole_day": true
+      },
+      "fr": {
+        "standard": false,
+        "whole_day": true
+      },
+      "so": {
+        "standard": false,
+        "whole_day": true
+      },
+      "bs": {
+        "standard": true,
+        "whole_day": true
+      },
+      "bl": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sh": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ar": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ai": {
+        "standard": true,
+        "whole_day": true
+      },
+      "sg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "gr": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ag": {
+        "standard": false,
+        "whole_day": true
+      },
+      "tg": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ti": {
+        "standard": true,
+        "whole_day": true
+      },
+      "ne": {
+        "standard": true,
+        "whole_day": true
+      }
+    }
+  },
+  "ausrufung_der_republik_neuenburg": {
+    "labels": {
+      "de": "Ausrufung der Republik Neuenburg",
+      "fr": "Instauration de la République Neuchâtel",
+      "en": "Proclamation of the Republic Neuchâtel",
+      "it": "Ausrufung der Republik Neuenburg"
+    },
+    "date": "1.3",
+    "regions": {
+      "ne": {
+        "standard": true,
+        "whole_day": true
+      }
+    }
+  },
+  "naefelser_fahrt": {
+    "labels": {
+      "de": "Näfelser Fahrt",
+      "fr": "Näfelser Fahrt",
+      "en": "Näfelser Fahrt",
+      "it": "Näfelser Fahrt"
+    },
+    "date": "*",
+    "regions": {
+      "gl": {
+        "standard": true,
+        "whole_day": true
+      }
+    }
+  },
+  "sechselaeuten": {
+    "labels": {
+      "de": "Sechseläuten",
+      "fr": "Sechseläuten",
+      "en": "Sechseläuten",
+      "it": "Sechseläuten"
+    },
+    "date": "*",
+    "regions": {
+      "zh": {
+        "standard": false,
+        "whole_day": false
+      }
+    }
+  },
+  "fest_der_unabhaengigkeit": {
+    "labels": {
+      "de": "Fest der Unabhängigkeit",
+      "fr": "Commémoration du plébiscite jurassien",
+      "en": "Jura Independence Day",
+      "it": "Jura Independence Day"
+    },
+    "date": "23.6",
+    "regions": {
+      "ju": {
+        "standard": true,
+        "whole_day": true
+      }
+    }
+  },
+  "st_peter_und_paul": {
+    "labels": {
+      "de": "St. Peter und Paul",
+      "fr": "Sts Pierre et Paul",
+      "en": "Sts Peter and Paul",
+      "it": "SS. Pietro e Paolo"
+    },
+    "date": "29.6",
+    "regions": {
+      "lu": {
+        "standard": false,
+        "whole_day": true
+      },
+      "so": {
+        "standard": false,
+        "whole_day": true
+      },
+      "gr": {
+        "standard": false,
+        "whole_day": true
+      },
+      "ti": {
+        "standard": true,
+        "whole_day": true
+      }
+    }
+  },
+  "genfer_bettag": {
+    "labels": {
+      "de": "Genfer Bettag",
+      "fr": "Jeûne genevois",
+      "en": "Geneva Prayday",
+      "it": "Digiuno ginevrino"
+    },
+    "date": "*",
+    "regions": {
+      "ge": {
+        "standard": true,
+        "whole_day": true
+      }
+    }
+  },
+  "knabenschiessen": {
+    "labels": {
+      "de": "Knabenschiessen",
+      "fr": "Knabenschiessen",
+      "en": "Knabenschiessen",
+      "it": "Knabenschiessen"
+    },
+    "date": "*",
+    "regions": {
+      "zh": {
+        "standard": false,
+        "whole_day": false
+      }
+    }
+  },
+  "bettagsmontag": {
+    "labels": {
+      "de": "Bettagsmontag",
+      "fr": "Lundi du Jeûne fédéral",
+      "en": "Bettagsmontag",
+      "it": "Lunedì del digiuno federale"
+    },
+    "date": "*",
+    "regions": {
+      "vd": {
+        "standard": true,
+        "whole_day": true
+      },
+      "vs": {
+        "standard": false,
+        "whole_day": true
+      },
+      "ne": {
+        "standard": false,
+        "whole_day": true
+      }
+    }
+  },
+  "st_mauritiustag": {
+    "labels": {
+      "de": "St. Mauritiustag",
+      "fr": "Saint Maurice",
+      "en": "Saint Maurice",
+      "it": "San Maurizio"
+    },
+    "date": "22.9",
+    "regions": {
+      "ai": {
+        "standard": true,
+        "whole_day": true
+      }
+    }
+  },
+  "bruder_klaus": {
+    "labels": {
+      "de": "Bruder Klaus",
+      "fr": "Bruder Klaus",
+      "en": "Bruder Klaus",
+      "it": "Bruder Klaus"
+    },
+    "date": "25.9",
+    "regions": {
+      "ow": {
+        "standard": true,
+        "whole_day": true
+      }
+    }
+  },
+  "st_ursentag": {
+    "labels": {
+      "de": "St. Urs und Viktor",
+      "fr": "Saints Ours et Victor",
+      "en": "Saints Ursus and Victor",
+      "it": "SS. Urs e Vittorio"
+    },
+    "date": "30.9",
+    "regions": {
+      "so": {
+        "standard": false,
+        "whole_day": true
+      }
+    }
+  },
+  "st_leodegar": {
+    "labels": {
+      "de": "St. Leodegar",
+      "fr": "Saint Leodegar",
+      "en": "Saint Leodegar",
+      "it": "San Leodegar"
+    },
+    "date": "2.11",
+    "regions": {
+      "lu": {
+        "standard": false,
+        "whole_day": true
+      }
+    }
+  },
+  "escalade_de_geneve": {
+    "labels": {
+      "de": "Escalade de Genève",
+      "fr": "Escalade de Genève",
+      "en": "Escalade de Genève",
+      "it": "Escalade de Genève"
+    },
+    "date": "12.12",
+    "regions": {
+      "ge": {
+        "standard": false,
+        "whole_day": true
+      }
+    }
+  },
+  "wiederherstellung_der_republik_genf": {
+    "labels": {
+      "de": "Wiederherstellung der Republik Genf",
+      "fr": "Restauration de la République Genève",
+      "en": "Restoration of the Republic Geneva",
+      "it": "Restaurazione della Repubblica Ginevra"
+    },
+    "date": "31.12",
+    "regions": {
+      "ge": {
+        "standard": true,
+        "whole_day": true
+      }
+    }
+  }
+}

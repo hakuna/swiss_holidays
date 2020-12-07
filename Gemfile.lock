@@ -1,0 +1,19 @@
+PATH
+  remote: .
+  specs:
+    swiss_holidays (0.1.0)
+      rake
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (13.0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  swiss_holidays!
+
+BUNDLED WITH
+   1.17.2
