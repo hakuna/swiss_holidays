@@ -5,7 +5,7 @@ module SwissHolidays
   REGIONS = %i(zh be lu ur sz ow nw gl zg fr so bs bl sh ar ai sg gr ag tg ti vd vs ne ge ju)
 
   class << self
-    def generate(start_date, end_date, region, locale = i18n_locale)
+    def between(start_date, end_date, region, locale = i18n_locale)
       region = region.to_sym
       locale = (locale || 'de').to_sym
 

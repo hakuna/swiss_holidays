@@ -7,7 +7,7 @@ describe SwissHolidays do
   let(:region) { :zh }
   let(:locale) { nil }
 
-  subject { SwissHolidays.generate(start_date, end_date, region, locale) }
+  subject { SwissHolidays.between(start_date, end_date, region, locale) }
 
   it 'returns the correct holidays' do
     expect(subject).to eq [
