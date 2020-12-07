@@ -5,34 +5,36 @@ module SwissHolidays
   REGIONS = %i(zh be lu ur sz ow nw gl zg fr so bs bl sh ar ai sg gr ag tg ti vd vs ne ge ju)
 
   class << self
-    def generate(start_date:, end_date:, region:)
+    def generate(start_date, end_date, region, locale = i18n_locale)
       region = region.to_sym
-      start_date = start_date.to_date
-      end_date = end_date.to_date
+      locale = (locale || 'de').to_sym
+
+      raise "Invalid region specified: #{region}" unless REGIONS.include?(region)
+      start_date = start_date.kind_of?(Date) ? start_date : Date.parse(start_date)
+      end_date = end_date.kind_of?(Date) ? end_date : Date.parse(end_date)
 
       start_date.year.upto(end_date.year).collect do |year|
-        yearly_public_holidays_for(year: year, region: region).select do |public_holiday|
-          public_holiday[:date] >= start_date && public_holiday[:date] <= end_date
+        generate_swiss_holidays_for_year(year, region, locale).select do |swiss_holiday|
+          swiss_holiday[:date] >= start_date && swiss_holiday[:date] <= end_date
         end
-      end.flatten
+      end.flatten.sort_by { |x| x[:date] }
     end
 
-    def yearly_public_holidays_for(year:, region:)
-      region = region.to_sym
-      year = year.to_i
+    private
 
-      public_holidays.collect do |id, public_holiday|
+    def generate_swiss_holidays_for_year(year, region, locale = i18n_locale)
+      swiss_holidays.collect do |id, swiss_holiday|
         date = case
-               when public_holiday[:date] == '*'
+               when swiss_holiday[:date] == '*'
                  send(:"date_of_#{id}", year)
                else
-                 Date.parse("#{public_holiday[:date]}.#{year}")
+                 Date.parse("#{swiss_holiday[:date]}.#{year}")
                end
 
-        regional_info = public_holiday[:regions][region]
+        regional_info = swiss_holiday[:regions][region]
         next unless regional_info && !regional_info.empty?
 
-        label = public_holiday[:labels][locale] || public_holiday[:labels].first
+        label = swiss_holiday[:labels][locale] || swiss_holiday[:labels].values.first
 
         {
           id: id,
@@ -42,14 +44,12 @@ module SwissHolidays
       end.compact
     end
 
-    def locale
-      (defined?(I18n) ? I18n.locale[0...2] : 'de').to_sym
+    def i18n_locale
+      defined?(I18n) && I18n.locale[0...2]
     end
 
-    private
-
-    def public_holidays
-      @public_holidays ||= JSON.parse(File.read(File.join(File.dirname(__FILE__), '..', 'data', 'swiss_holidays.json')), symbolize_names: true)
+    def swiss_holidays
+      @swiss_holidays ||= JSON.parse(File.read(File.join(File.dirname(__FILE__), '..', 'data', 'swiss_holidays.json')), symbolize_names: true)
     end
 
     def date_of_karfreitag(year)
@@ -81,12 +81,12 @@ module SwissHolidays
     end
 
     def date_of_eidg_bettag(year)
-      nth_weekday Date.new(year, 9, 1), :sunday, nth: 3
+      nth_weekday Date.civil(year, 9, 1), :sunday, nth: 3
     end
 
     def date_of_sechselaeuten(year)
       # at least good until 2025 (matches with official data)
-      month = Date.new(year, 4, 1)
+      month = Date.civil(year, 4, 1)
       third = nth_weekday(month, :monday, nth: 3)
       second = nth_weekday(month, :monday, nth: 2)
       fourth = nth_weekday(month, :monday, nth: 4)
@@ -97,13 +97,13 @@ module SwissHolidays
     end
 
     def date_of_naefelser_fahrt(year)
-      date = nth_weekday(Date.new(year, 4, 1), :thursday, nth: 1)
+      date = nth_weekday(Date.civil(year, 4, 1), :thursday, nth: 1)
       date += 7 if date == date_of_karfreitag(year) - 1 # gründonnerstag? then +1 week
       date
     end
 
     def date_of_genfer_bettag(year)
-      first_sunday = nth_weekday(Date.new(year, 9, 1), :sunday, nth: 1)
+      first_sunday = nth_weekday(Date.civil(year, 9, 1), :sunday, nth: 1)
       first_sunday + 4
     end
 
@@ -120,7 +120,9 @@ module SwissHolidays
 
       date = date - 1 # make sure we exclude potential first weekday so it counts
       nth.times do
-        date += 1 while week_ways[date.wday] != weekday
+        begin
+          date += 1
+        end while week_ways[date.wday] != weekday
       end
       date
     end
@@ -156,6 +158,7 @@ module SwissHolidays
 
     def beginning_of_week(date)
       date -= 1 while date.wday != 1
+      date
     end
 
   end # class << self

@@ -24,4 +24,7 @@ Gem::Specification.new do |spec|
   spec.files = Dir["{lib,data}/**/*", "LICENSE", "Rakefile", "README.md"]
 
   spec.add_dependency 'rake'
+
+  spec.add_development_dependency 'rspec'
+  spec.add_development_dependency 'awesome_print'
 end
