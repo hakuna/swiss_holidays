@@ -7,7 +7,7 @@ module SwissHolidays
   class << self
     def between(start_date, end_date, region, locale = i18n_locale)
       region = region.to_sym
-      locale = (locale || 'de').to_sym
+      locale = locale&.to_sym
 
       raise "Invalid region specified: #{region}" unless REGIONS.include?(region)
       start_date = start_date.kind_of?(Date) ? start_date : Date.parse(start_date)
@@ -22,7 +22,7 @@ module SwissHolidays
 
     private
 
-    def generate_swiss_holidays_for_year(year, region, locale = i18n_locale)
+    def generate_swiss_holidays_for_year(year, region, locale)
       swiss_holidays.collect do |id, swiss_holiday|
         date = case
                when swiss_holiday[:date] == '*'
