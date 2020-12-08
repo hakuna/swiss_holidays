@@ -30,6 +30,9 @@ namespace :swiss_holidays do
 
         is_standard = !letter.include?('*')
         is_full_day = letter.include?('1')
+        is_half_day = letter.include?('0.5')
+
+        raise "Unknown contents: #{letter}" if !is_full_day && !is_half_day
 
         regions[region] = {
           standard: is_standard,
