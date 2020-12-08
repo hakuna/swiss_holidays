@@ -139,6 +139,10 @@
         "standard": false,
         "whole_day": true
       },
+      "nw": {
+        "standard": false,
+        "whole_day": true
+      },
       "gl": {
         "standard": false,
         "whole_day": true
@@ -159,6 +163,10 @@
         "standard": false,
         "whole_day": true
       },
+      "sg": {
+        "standard": false,
+        "whole_day": true
+      },
       "gr": {
         "standard": false,
         "whole_day": true
@@ -173,6 +181,10 @@
       },
       "vd": {
         "standard": true,
+        "whole_day": true
+      },
+      "vs": {
+        "standard": false,
         "whole_day": true
       },
       "ne": {
@@ -242,6 +254,10 @@
         "whole_day": true
       },
       "zg": {
+        "standard": false,
+        "whole_day": true
+      },
+      "so": {
         "standard": false,
         "whole_day": true
       },
@@ -578,6 +594,10 @@
         "standard": true,
         "whole_day": true
       },
+      "vs": {
+        "standard": false,
+        "whole_day": true
+      },
       "ne": {
         "standard": false,
         "whole_day": true
@@ -636,6 +656,10 @@
       "ti": {
         "standard": true,
         "whole_day": true
+      },
+      "vs": {
+        "standard": false,
+        "whole_day": false
       },
       "ne": {
         "standard": true,
@@ -974,6 +998,10 @@
         "standard": true,
         "whole_day": true
       },
+      "vs": {
+        "standard": false,
+        "whole_day": true
+      },
       "ne": {
         "standard": false,
         "whole_day": true
@@ -1022,7 +1050,7 @@
         "whole_day": true
       },
       "fr": {
-        "standard": false,
+        "standard": true,
         "whole_day": true
       },
       "so": {
@@ -1212,7 +1240,7 @@
         "whole_day": true
       },
       "fr": {
-        "standard": false,
+        "standard": true,
         "whole_day": true
       },
       "so": {
@@ -1398,10 +1426,14 @@
         "whole_day": true
       },
       "fr": {
-        "standard": false,
+        "standard": true,
         "whole_day": true
       },
       "so": {
+        "standard": false,
+        "whole_day": true
+      },
+      "bl": {
         "standard": false,
         "whole_day": true
       },
@@ -1469,7 +1501,7 @@
         "whole_day": true
       },
       "fr": {
-        "standard": false,
+        "standard": true,
         "whole_day": true
       },
       "so": {
@@ -1695,7 +1727,7 @@
         "whole_day": true
       },
       "ag": {
-        "standard": false,
+        "standard": true,
         "whole_day": true
       },
       "tg": {
@@ -1706,8 +1738,16 @@
         "standard": true,
         "whole_day": true
       },
+      "vd": {
+        "standard": false,
+        "whole_day": true
+      },
+      "vs": {
+        "standard": false,
+        "whole_day": true
+      },
       "ne": {
-        "standard": true,
+        "standard": false,
         "whole_day": true
       }
     }

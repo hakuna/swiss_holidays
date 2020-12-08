@@ -16,7 +16,6 @@ namespace :swiss_holidays do
     require 'json'
     csv = CSV.parse(File.read(ENV['CSV']), headers: true)
 
-    all_regions = {}
     public_holidays = {}
     regions = {}
 
@@ -29,17 +28,13 @@ namespace :swiss_holidays do
         letter = row[region.to_s.upcase]
         next unless letter && !letter.empty?
 
-        letter = letter[0] # ignore footnotes/numbers
-
-        is_standard = letter.match?(/[ABC]/)
-        is_half_day = letter.match?(/[Cc]/)
+        is_standard = !letter.include?('*')
+        is_full_day = letter.include?('1')
 
         regions[region] = {
           standard: is_standard,
-          whole_day: !is_half_day, # use 'whole_day' so false can mean multiple things in future (only one hour off etc.)
+          whole_day: is_full_day, # use 'whole_day' so false can mean multiple things in future (only one hour off etc.)
         }
-
-        all_regions[region] = 1
       end
 
       public_holidays[id] = {
