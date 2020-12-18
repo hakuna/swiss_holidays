@@ -4,12 +4,14 @@ require 'json'
 module SwissHolidays
   REGIONS = %i(zh be lu ur sz ow nw gl zg fr so bs bl sh ar ai sg gr ag tg ti vd vs ne ge ju)
 
+  class UnknownRegionError < StandardError; end
+
   class << self
     def between(start_date, end_date, region, locale = i18n_locale)
       region = region.to_sym
       locale = locale&.to_sym
 
-      raise "Invalid region specified: #{region}" unless REGIONS.include?(region)
+      raise UnknownRegionError unless REGIONS.include?(region)
       start_date = start_date.kind_of?(Date) ? start_date : Date.parse(start_date)
       end_date = end_date.kind_of?(Date) ? end_date : Date.parse(end_date)
 
