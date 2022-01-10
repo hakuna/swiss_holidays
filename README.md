@@ -1,7 +1,5 @@
 # Swiss Holidays
 
-TODO: Description
-
 ## Sources
 
 Public holidays vary tremendously from village to village, city to city, canton to canton.
