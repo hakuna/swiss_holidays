@@ -4,17 +4,20 @@ rescue LoadError
   puts 'You must `gem install bundler` and `bundle install` to run rake tasks'
 end
 
+require 'open-uri'
 require_relative 'lib/swiss_holidays'
 
+CSV_REFERENCE_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSBIc0MVbjTEMhm4lqFsGAYnU3wFw5zwJkhMksi2M_3D49mUl836mu-Nel1XrkkL-nmTIMb8D_8GDuo/pub?gid=1983911977&single=true&output=csv'
+
 namespace :swiss_holidays do
-  # CSV reference here: https://docs.google.com/spreadsheets/d/1JdpdYausYfIiB3f-PaRDKwvqijMhaqKQrO8rQ12puM8/edit?usp=sharing
   desc "Updates swiss_holidays.json from ENV['CSV']"
   task :update_from_spreadsheet do
-    raise "Supply ENV['CSV'] csv file path" if ENV['CSV'].nil?
-
     require 'csv'
     require 'json'
-    csv = CSV.parse(File.read(ENV['CSV']), headers: true)
+
+    content = URI.open(CSV_REFERENCE_URL).read
+    File.write('/tmp/swag2.csv', content)
+    csv = CSV.parse(content, headers: true)
 
     public_holidays = {}
     regions = {}
