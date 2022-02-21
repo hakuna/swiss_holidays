@@ -16,7 +16,6 @@ namespace :swiss_holidays do
     require 'json'
 
     content = URI.open(CSV_REFERENCE_URL).read
-    File.write('/tmp/swag2.csv', content)
     csv = CSV.parse(content, headers: true)
 
     public_holidays = {}
